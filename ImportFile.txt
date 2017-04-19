@@ -1,0 +1,6 @@
+{"redactions": "{\"field\": \"datafield\", \"redactionType\": 0}"}
+{"redactions": "{\"field\": \"importedfield\", \"redactionType\": 0}"}
+{"redactions": "{\"field\": \"importedfieldnew\", \"redactionType\": 1}"}
+{"redactions": "{\"field\": \"parameter\", \"redactionType\": 0}"}
+{"redactions": "{\"field\": \"requestheader\", \"redactionType\": 1}"}
+{"redactions": "{\"field\": \"responseheader\", \"redactionType\": 2}"}
