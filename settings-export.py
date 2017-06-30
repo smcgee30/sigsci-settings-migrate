@@ -181,6 +181,10 @@ for listType in multiUrl:
             exportJson = ("{\"whitelistParam\": \"{\\\"name\\\": \\\"%s\\\",\\\"type\\\": \\\"%s\\\", \\\"note\\\":\\\"%s\\\"}\"}") % (name, wlType, note)
         elif listType == "alerts":
             enabled = request["enabled"]
+            if enabled == True:
+            	enabled = "true"
+            else:
+            	enabled = "false"
             interval = request["interval"]
             longName = request["longName"]
             fieldName = request["fieldName"]
