@@ -14,7 +14,7 @@ response = open(os.environ['res'], 'w')
 #response.write(json_str)
 
 #response.write("appname:"['appname'] + "boardname:"['boardname'])
-apname = ['appname']
+#apname = ['appname']
 
 response.write("appname:"['appname'] + "boardname:"['boardname'])
 
