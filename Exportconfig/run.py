@@ -13,6 +13,7 @@ response = open(os.environ['res'], 'w')
 #json_str = json.dumps(data)
 #response.write(json_str)
 
-response.write(postreqdata['appname'] + postreqdata['boardname'])
-
+#response.write("appname:"['appname'] + "boardname:"['boardname'])
+apname = ['appname']
+jsondumps({'appname':apname})
 response.close()
