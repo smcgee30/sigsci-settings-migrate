@@ -15,5 +15,5 @@ response = open(os.environ['res'], 'w')
 
 #response.write("appname:"['appname'] + "boardname:"['boardname'])
 apname = ['appname']
-json.dumps({'appname':apname})
+print(list(d['appname']))
 response.close()
