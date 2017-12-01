@@ -13,6 +13,6 @@ response = open(os.environ['res'], 'w')
 #json_str = json.dumps(data)
 #response.write(json_str)
 
-response.write(os.environ['req_query_appname'] + os.environ['req_query_boardname'])
+response.write(os.environ['appname'] + os.environ['boardname'])
 
 response.close()
