@@ -15,5 +15,5 @@ response = open(os.environ['res'], 'w')
 
 #response.write("appname:"['appname'] + "boardname:"['boardname'])
 apname = ['appname']
-jsondumps({'appname':apname})
+json.dumps({'appname':apname})
 response.close()
