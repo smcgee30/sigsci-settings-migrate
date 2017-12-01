@@ -15,5 +15,6 @@ response = open(os.environ['res'], 'w')
 
 #response.write("appname:"['appname'] + "boardname:"['boardname'])
 apname = ['appname']
-print(list(d['appname']))
+for d in postreqdata:
+    print(list(d['appname']))
 response.close()
