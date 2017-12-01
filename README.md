@@ -1,6 +1,11 @@
 # Signal Sciences Settings export and import
 Tools for importing and exporting Signal Sciences settings
 
+##Branch notes
+This branch is for Turner's setup and to automate the code.  there is no intention to merge back into the master.
+Important code changes
+   - added a wrapper to run as a function app to pull in variables from a form.
+
 ## Configuration
 
 The configuration options are pretty straight forward and can be set as JSON parameters in a file or via environment variables.
