@@ -9,7 +9,6 @@ response = open(os.environ['res'], 'w')
 #   'boardname' :  postreqdata['boadname'],
 #   'maincontact' :  postreqdata['maincontact']
 #}
-
 #json_str = json.dumps(data)
 #response.write(json_str)
 
@@ -17,5 +16,4 @@ response = open(os.environ['res'], 'w')
 #apname = ['appname']
 
 response.write("appname:"['appname'] + "boardname:"['boardname'])
-
 response.close()
